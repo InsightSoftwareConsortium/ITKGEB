@@ -53,7 +53,7 @@ vtkImageConstantPad constantPadBlock
 
 # Letter V
 vtkPNMReader letterV
-  letterV SetFileName "vp3.ppm"
+  letterV SetFileName "tp3.ppm"
   letterV AddObserver StartEvent "puts -nonewline \"Read v...\";flush stdout"
   letterV AddObserver EndEvent "puts \"Complete\""
 
@@ -78,7 +78,7 @@ vtkImageConstantPad contantPadV
 
 # Letter T
 vtkPNMReader letterT
-  letterT SetFileName "tp3.ppm"
+  letterT SetFileName "ip3.ppm"
   letterT AddObserver StartEvent "puts -nonewline \"Read t...\";flush stdout"
   letterT AddObserver EndEvent "puts \"Complete\""
 
@@ -269,7 +269,7 @@ ren1 ResetCamera
 ren1 ResetCameraClippingRange
 
 vtkSTLWriter writer
-writer SetFileName vtkgeb.stl
+writer SetFileName itkgeb.stl
 writer SetInputConnection [normals GetOutputPort]
 writer Write
 
