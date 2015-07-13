@@ -1,12 +1,12 @@
-vtkGEB
+ITKGEB
 ======
 
-The vtk logo inspired by the cover of the book: Godel, Escher and Bach
+The ITK logo inspired by the cover of the book: Godel, Escher and Bach
 
-The  orignal tcl script was written by Jim Miller and Bill Lorensen in
-January 1998.
+The original tcl script for the vtk GEB cube was written by Jim Miller and
+Bill Lorensen in January 1998.
 
-To run this tcl script, you need to build VTK with 
+To run this tcl script, you need to build VTK with
 
 VTK_WRAP_TCL:BOOL=ON
 
